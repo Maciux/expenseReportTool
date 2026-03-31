@@ -52,3 +52,18 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# CMake build directories
+build/
+build*/
+
+# In-source CMake artifacts (safety net)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# IDE / tooling caches
+.cache/
+
+# Qt Creator per-project local settings
+.qtcreator/

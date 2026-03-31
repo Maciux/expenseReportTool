@@ -1,0 +1,8 @@
+{
+  "name": "expenseReportTool-agent",
+  "description": "Agent for app development",
+  "prompt": "file://./expenseReportTool-agent-prompt.md",
+  "tools": ["fs_read", "fs_write", "grep", "glob"],
+  "allowedTools": ["fs_read", "grep", "glob"],
+  "resources": ["file://./"]
+}
